@@ -11,7 +11,7 @@ public class ReadWelcomeTest{
         final ReadWelcome welcomeReader = new ReadWelcomeImpl();
         final String realMessage = welcomeReader.getWelcomeMessage();
         
-        final String expectedMessage = "Jerkin testing is working" ;
+        final String expectedMessage = "Jerkins is working perfectly" ;
         
         Assert.assertEquals("Get text from implementations ", expectedMessage, realMessage);
     }
